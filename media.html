@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Portfolio</title>
+</head>
+<body>
+    <h1>My Media Portfolio</h1>
+    <a href="table.html">Go To Table Page</a>  <hr>
+
+
+    <p>This is my picture gallery, responsive to different screen sizes I have Mobile, Tablet and Desktop view. With My profile picture as a fallback</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="img/mobile.jpg" width="300px">
+        <source media="(max-width: 1024px)" srcset="img/tablet.jpg" width="500px">
+        <source media="(min-width: 1025px)" srcset="img/desktop.jpg" width="500px">
+        <img src="img/fallback_image.jpg" alt="My Profile Picture">
+    </picture>
+    
+   
+
+</body>
+</html>
